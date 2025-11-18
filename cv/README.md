@@ -7,6 +7,7 @@ This directory contains ready-to-use Computer Vision application notebooks built
 | No. | Model |
 | :-- | :---- |
 | 1   | [ResNet](./resnet/) |
+| 2   | [U-Net](./unet/) |
 
 ## Contributing New CV Applications
 
