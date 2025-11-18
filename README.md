@@ -53,12 +53,13 @@ For details, see [Using Docker Images](https://github.com/mindspore-courses/appl
 | 1   | [CV](./cv/) |
 | 2   | [NLP](./nlp/) |
 | 3   | [GAN](./gan/) |
-| 4   | [Diffusion](./diffusion/) |
-| 5   | [LLM](./cv/) |
-| 6   | [Multi-Modal](./multi-modal/) |
-| 7   | [OrangePi](https://github.com/mindspore-courses/orange-pi-mindspore) |
-| 8   | [RAG](./rag/) |
-| 9   | [Agent](./agent/) |
+| 4   | [Audio](./audio/) |
+| 5   | [Diffusion](./diffusion/) |
+| 6   | [LLM](./cv/) |
+| 7   | [Multi-Modal](./multi-modal/) |
+| 8   | [OrangePi](https://github.com/mindspore-courses/orange-pi-mindspore) |
+| 9   | [RAG](./rag/) |
+| 10   | [Agent](./agent/) |
 
 ## Awesome projects using MindSpore
 
