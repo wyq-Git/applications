@@ -1,12 +1,12 @@
-# Retrieval-Augmented Generation Applications (MindSpore)
+# Retrieval-Augmented Generation Applications
 
 This directory contains ready-to-use Retrieval-Augmented Generation application notebooks built with MindSpore. Each notebook demonstrates a complete or partial workflow—training, finetuning, or inference—along with a brief introduction to the model used.
 
 ## Application List
 
-| No. | Application |
-| :-- | :---- |
-| 1   |  |
+| No. | Application | Description                     |
+| :-- | :---------- | :------------------------------ |
+| 1   | / | This section is empty for now — feel free to contribute your first application! |
 
 ## Contributing New RAG Applications
 

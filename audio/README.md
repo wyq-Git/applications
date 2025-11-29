@@ -1,12 +1,12 @@
-# Audio Applications (MindSpore)
+# Audio Applications
 
 This directory contains ready-to-use Audio application notebooks built with MindSpore. Each notebook demonstrates a complete or partial workflow—training, finetuning, or inference—along with a brief introduction to the model used.
 
 ## Application List
 
-| No. | Model |
-| :-- | :---- |
-| 1   | [WaveNet](./wavenet/) |
+| No. | Model | Description                       |
+| :-- | :---- | :-------------------------------- |
+| 1   | [WaveNet](./wavenet/) | Includes notebooks for WaveNet training on tasks such as audio synthesis |
 
 ## Contributing New Audio Applications
 

@@ -32,34 +32,30 @@ Confirm your Python version meets the course requirements, then run:
 pip install -r requirements.txt
 ```
 
-### Use Docker Image
+### Use Docker Image (*Coming Soon*)
 
 Prebuilt Dockerfiles are provided to simplify environment setup.
 
-You can find all course images in the [dockerfile](./dockerfile/) directory and pull the one that fits your hardware:
-
-| Platform | Image Name     | Tag      | Description               | Dockerfile     |
-| :------ | :-------------- | :------- | :------------------------ | :------------- |
-| CPU     | xxx             | xxx      | xxx                       | xxx            |
-| GPU     | xxx             | xxx      | xxx                       | xxx            |
-| NPU     | xxx             | xxx      | xxx                       | xxx            |
+You can find all course images in the [dockerfile](./dockerfile/) directory and pull the one that fits your hardware.
 
 For details, see [Using Docker Images](https://github.com/mindspore-courses/applications/wiki/Set-Up-Development-Environment) in Wiki.
 
 ## Application List
 
-| No. | Domain |
-| :-- | :----- |
-| 1   | [CV](./cv/) |
-| 2   | [NLP](./nlp/) |
-| 3   | [GAN](./gan/) |
-| 4   | [Audio](./audio/) |
-| 5   | [Diffusion](./diffusion/) |
-| 6   | [LLM](./cv/) |
-| 7   | [Multi-Modal](./multi-modal/) |
-| 8   | [OrangePi](https://github.com/mindspore-courses/orange-pi-mindspore) |
-| 9   | [RAG](./rag/) |
-| 10   | [Agent](./agent/) |
+The notebooks are organized by domain. Within each domain, notebooks are further grouped by model to provide a clear and scalable structure.
+
+| No.  | Domain  | Description                    |
+| :--- | :------ | :----------------------------- |
+| 1 | [CV](./cv/) | Vision models and tasks (classification, detection, segmentation). |
+| 2 | [NLP](./nlp/) | Text processing, sequence modeling, and language understanding tasks. |
+| 3 | [GAN](./gan/) | GAN models for image synthesis and style transfer. |
+| 4 | [Audio](./audio/) | Audio classification, speech tasks, and signal processing examples. |
+| 5 | [Diffusion](./diffusion/) | Diffusion-based generation models and training workflows. |
+| 6 | [LLM](./llm/) | Large language models for text generation, reasoning, and instruction tasks. |
+| 7 | [Multi-Modal](./multi-modal/) | Models combining text, vision, or audio modalities. |
+| 8 | [OrangePi](https://github.com/mindspore-courses/orange-pi-mindspore) | Edge-AI applications on OrangePi with MindSpore. |
+| 9 | [RAG](./rag/) | Retrieval-augmented generation pipelines and examples. |
+| 10 | [Agent](./agent/) | Agent-style workflows and task-oriented intelligent systems. |
 
 ## Awesome projects using MindSpore
 

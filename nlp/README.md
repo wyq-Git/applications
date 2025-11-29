@@ -1,12 +1,12 @@
-# Natural Language Processing Applications (MindSpore)
+# Natural Language Processing Applications
 
 This directory contains ready-to-use Natural Language Processing application notebooks built with MindSpore. Each notebook demonstrates a complete or partial workflow—training, finetuning, or inference—along with a brief introduction to the model used.
 
 ## Application List
 
-| No. | Model |
-| :-- | :---- |
-| 1   |  |
+| No. | Model | Description                     |
+| :-- | :---- | :------------------------------ |
+| 1   | / | This section is empty for now — feel free to contribute your first application! |
 
 ## Contributing New NLP Applications
 

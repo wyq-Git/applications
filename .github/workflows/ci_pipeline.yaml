@@ -31,6 +31,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip==24.0
+        pip install torch --index-url https://download.pytorch.org/whl/cpu
         if [ -f "requirements.txt" ]; then pip install -r requirements.txt; fi
 
     - name: Get target directories
@@ -46,7 +47,7 @@ jobs:
       run: |
         NUM_CORES=$(nproc)
         pylint ${{ env.DIRS }} --jobs=$NUM_CORES --rcfile=.github/pylint.conf
-  
+
   markdownlint-check:
     name: Markdownlint Check
     runs-on: ubuntu-latest
@@ -54,7 +55,7 @@ jobs:
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
-      
+
       - name: Run markdownlint
         uses: DavidAnson/markdownlint-cli2-action@v15
         with:
