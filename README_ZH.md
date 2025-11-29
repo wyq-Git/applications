@@ -32,32 +32,28 @@
 pip install requirements.txt
 ```
 
-### 使用Docker镜像
+### 使用Docker镜像（待发布）
 
-为方便开发者更加便捷地进行代码实践，节约环境准备的时间，我们提供了预装好的基础Dockerfile文件。课程的所有镜像可从[dockerfile](./dockerfile/)获取。本课程镜像文件信息如下，开发者可根据实际需求进行拉取：
-
-| 硬件平台 | 镜像名称        | 标签      |  说明                     | Dockerfile文件 |
-| :------ | :-------------- | :------- | :------------------------ | :------------- |
-| CPU     | xxx             | xxx      | xxx                       | xxx            |
-| GPU     | xxx             | xxx      | xxx                       | xxx            |
-| NPU     | xxx             | xxx      | xxx                       | xxx            |
+为方便开发者更加便捷地进行代码实践，节约环境准备的时间，我们提供了预装好的基础Dockerfile文件。课程的所有镜像可从[dockerfile](./dockerfile/)获取。
 
 镜像基础使用教程详见环境准备Wiki中的[Docker镜像使用](https://github.com/mindspore-courses/applications/wiki/Set-Up-Development-Environment)部分。
 
 ## 案例清单
 
-| 序号 | 领域 |
-| :-- | :----- |
-| 1   | [CV](./cv/) |
-| 2   | [NLP](./nlp/) |
-| 3   | [GAN](./gan/) |
-| 4   | [Audio](./audio/) |
-| 5   | [Diffusion](./diffusion/) |
-| 6   | [LLM](./cv/) |
-| 7   | [Multi-Modal](./multi-modal/) |
-| 8   | [OrangePi](https://github.com/mindspore-courses/orange-pi-mindspore) |
-| 9   | [RAG](./rag/) |
-| 10   | [Agent](./agent/) |
+应用案例（通常以 Notebooks 形式呈现）按技术领域分类，各领域下再按模型进一步细分，为开发者提供清晰的索引导航。
+
+| 序号 | 领域     | 描述                           |
+| :--- | :------ | :----------------------------- |
+| 1 | [CV](./cv/) | 计算机视觉模型及相关任务（图像分类、目标检测、语义分割等）。 |
+| 2 | [NLP](./nlp/) | 文本处理、序列建模及语言理解类任务。 |
+| 3 | [GAN](./gan/) | 用于图像合成、风格迁移的GAN系列模型。 |
+| 4 | [Audio](./audio/) | 音频分类、语音相关任务及信号处理应用案例。 |
+| 5 | [Diffusion](./diffusion/) | 基于扩散模型的图像生成及训练流程示例。 |
+| 6 | [LLM](./llm/) | 适用于文本生成、逻辑推理及指令遵循类任务的大语言模型应用案例。 |
+| 7 | [Multi-Modal](./multi-modal/) | 融合文本、视觉或音频等多种模态的模型应用案例。 |
+| 8 | [OrangePi](https://github.com/mindspore-courses/orange-pi-mindspore) | 基于 MindSpore 在 OrangePi 开发板上实现的训推应用案例。 |
+| 9 | [RAG](./rag/) | 检索增强生成（RAG）技术的落地案例，含知识库问答、专业文档解析等场景的实现流程与示例。 |
+| 10 | [Agent](./agent/) | 智能体（Agent）应用案例，覆盖任务拆解、工具调用类场景的架构工作流与系统实现。 |
 
 ## 版本维护
 
@@ -65,7 +61,7 @@ pip install requirements.txt
 
 | 版本名  | Python | MindSpore | MindSpore NLP |
 | :----- | :----- |:------ |:------ |
-| dev   | >=3.9, <=3.11 | 2.7.1    | 0.5.1    |
+| dev   | >=3.9, <=3.11 | 2.7.0    | 0.5.1    |
 
 ## 常见问题（FAQ）
 

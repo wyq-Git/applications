@@ -1,13 +1,13 @@
-# Comupter Vision Applications (MindSpore)
+# Comupter Vision Applications
 
 This directory contains ready-to-use Computer Vision application notebooks built with MindSpore. Each notebook demonstrates a complete or partial workflow—training, finetuning, or inference—along with a brief introduction to the model used.
 
 ## Application List
 
-| No. | Model |
-| :-- | :---- |
-| 1   | [ResNet](./resnet/) |
-| 2   | [U-Net](./unet/) |
+| No. | Model | Description                       |
+| :-- | :---- | :-------------------------------- |
+| 1   | [ResNet](./resnet/) | Includes notebooks for ResNet finetuning on tasks such as chinese herbal classification |
+| 2   | [U-Net](./unet/) | Includes notebooks for U-Net training on tasks such as segmentation |
 
 ## Contributing New CV Applications
 

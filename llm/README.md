@@ -1,4 +1,4 @@
-# Large Language Model Applications (MindSpore)
+# Large Language Model Applications
 
 This directory contains ready-to-use Large Language Model application notebooks built with MindSpore. Each notebook demonstrates a complete or partial workflow—training, finetuning, or inference—along with a brief introduction to the model used.
 
@@ -8,9 +8,9 @@ This directory contains ready-to-use Large Language Model application notebooks 
 
 The following notebooks are actively maintained in sync with MindSpore and MindSpore NLP releases and will continue to evolve as the framework advances.
 
-| No. | Model |
-| :-- | :---- |
-| 1   | [t5](./t5/) |
+| No. | Model | Description              |
+| :-- | :---- | :----------------------- |
+| 1   | [t5](./t5/) | Includes notebooks for T5 finetuning and inference on tasks such as email summarization |
 
 ### Community-Driven / Legacy Applications
 
@@ -23,7 +23,6 @@ If a notebook does not specify environment requirements, assume it runs with:
 
 > If you need any of these applications updated, please open an [Issue](https://github.com/mindspore-courses/applications/issues) with the required MindSpore and MindSpore NLP version.
 > Developers are also welcome to update these notebooks to the latest version by submitting a [Pull Request](https://github.com/mindspore-courses/applications/pulls).
-
 
 ## Contributing New LLM Applications
 

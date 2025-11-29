@@ -1,12 +1,12 @@
-# GAN Applications (MindSpore)
+# GAN Applications
 
 This directory contains ready-to-use GAN application notebooks built with MindSpore. Each notebook demonstrates a complete or partial workflow—training, finetuning, or inference—along with a brief introduction to the model used.
 
 ## Application List
 
-| No. | Model |
-| :-- | :---- |
-| 1   | [CycleGAN](./cyclegan/) |
+| No. | Model | Description                     |
+| :-- | :---- | :------------------------------ |
+| 1   | [CycleGAN](./cyclegan/) | Includes notebooks for fine-tuning GAN models on tasks such as stylized font generation and line-drawing generation |
 
 ## Contributing New GAN Applications
 
